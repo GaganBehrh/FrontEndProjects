@@ -5,32 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Greek Yoghurt</title>
+    <style>
+      body {
+        background-color: darksalmon;
+      }
+      h1 {
+        text-align: center;
+        color: #7d51e8;
+      }
+      h2 {
+        text-align: center;
+        border: 1px solid #7d51e8;
+        line-height: 50px;
+        padding: 15px;
+        font-size: 15px;
+        border-radius: 4px;
+      }
+      img {
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+
+        border-radius: 40px;
+      }
+      p {
+        line-height: 20px;
+        font-size: 12px;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 40px;
+        border: none;
+        color: white;
+        background-color: blueviolet;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      }
+      button:hover {
+        color: darkmagenta;
+        cursor: pointer;
+        transition: all 100ms ease-in-out;
+        opacity: 0.9;
+      }
+      .learn-more {
+        display: block;
+        margin-top: 5px;
+        text-decoration: none;
+        color: blueviolet;
+        transition: all 100ms ease-in-out;
+      }
+      .learn-more:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      .footer {
+        text-align: center;
+      }
+      .container {
+        margin: 0 auto;
+        padding: 30px 60px;
+        max-width: 600px;
+      }
+    </style>
   </head>
   <body>
-    <h1>I love Greek Yoghurt</h1>
-    <h2>Especially Greek Yoghurt</h2>
+    <div class="container">
+      <h1>I love Greek Yoghurt</h1>
+      <h2>Especially Greek Yoghurt</h2>
 
-    <img
-      src="https://i5.walmartimages.com/asr/0d4210b9-449b-4dd7-a14e-bcf231007599_1.99160e9b08cd6fca26cb995a38ff6b1c.jpeg"
-      alt="Greek Yoghurt"
-      width="300"
-    />
+      <img
+        src="https://i5.walmartimages.com/asr/0d4210b9-449b-4dd7-a14e-bcf231007599_1.99160e9b08cd6fca26cb995a38ff6b1c.jpeg"
+        alt="Greek Yoghurt"
+        width="300"
+      />
 
-    <p>
-      Strained yogurt, Greek yogurt, yogurt cheese, sack yogurt, or kerned
-      yogurt is yogurt that has been strained to remove most of its whey,
-      resulting in a thicker consistency than normal unstrained yogurt, while
-      still preserving the distinctive sour taste of yogurt. Like many types of
-      yogurt, strained yogurt
-    </p>
-    <a href="https://en.wikipedia.org/wiki/Strained_yogurt" target="_blank"
-      >Learn more about it on Wikipedia</a
-    >
-    <br />
-    <br />
-    <button>Buy Greek Yoghurt</button>
-    <br />
-    <br />
-    This page was built by Gagan
+      <p>
+        Strained yogurt, Greek yogurt, yogurt cheese, sack yogurt, or kerned
+        yogurt is yogurt that has been strained to remove most of its whey,
+        resulting in a thicker consistency than normal unstrained yogurt, while
+        still preserving the distinctive sour taste of yogurt. Like many types
+        of yogurt, strained yogurt
+      </p>
+      <a
+        href="https://en.wikipedia.org/wiki/Strained_yogurt"
+        target="_blank"
+        class="learn-more"
+        >Learn more about it on Wikipedia
+      </a>
+      <br />
+      <br />
+      <button>🏹 Buy Greek Yoghurt</button>
+      <br />
+      <br />
+      <p class="footer">
+        This page was built by
+        <a href="" target="_blank">Gagan 👩‍🔬</a>
+      </p>
+    </div>
   </body>
 </html>

@@ -7,7 +7,7 @@
     <title>Greek Yoghurt</title>
     <style>
       body {
-        background-color: darksalmon;
+        background-color: #8ef6e4;
       }
       h1 {
         text-align: center;
@@ -104,5 +104,16 @@
         <a href="" target="_blank">Gagan 👩‍🔬</a>
       </p>
     </div>
+    <script>
+      function onclickyogbutton() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email");
+        //let h1 = document.querySelector("h1");
+        //h1.innerHTML = "Wonderful";
+        alert("Thanks " + name + " , we will be in touch");
+      }
+      let greekyog = document.querySelector("button");
+      greekyog.addEventListener("click", onclickyogbutton);
+    </script>
   </body>
 </html>
